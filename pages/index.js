@@ -4,7 +4,6 @@ import config from '../config.json'
 import { CSSReset } from '../src/components/CSSReset'
 import Menu from '../src/components/Menu'
 import { StyledTimeline } from '../src/components/Timeline'
-import imgBanner from '../src/images/banner.jpg'
 
 
 
@@ -97,7 +96,6 @@ function TimeLine({searchValue, ...props}) {
         return (
           <section key={playlistName}>
             <h2>{playlistName}</h2>
-      <p></p>
             <div>
               {
                 videos
